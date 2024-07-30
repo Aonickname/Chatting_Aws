@@ -1,0 +1,25 @@
+# 일반적인 OS 관련 파일 무시
+.DS_Store
+Thumbs.db
+
+# 로그 파일 무시
+*.log
+
+# 임시 파일 무시
+*.tmp
+*.swp
+
+# 컴파일된 파일 무시
+*.class
+*.o
+*.so
+
+# 디렉토리 무시
+node_modules/
+target/
+bin/
+obj/
+
+# 추가한 규칙
+*.ppk
+*.pem
